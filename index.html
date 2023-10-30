@@ -1045,7 +1045,8 @@ var actionbardata = {"siteID":"225207274","postID":"0","siteURL":"http:\/\/newbi
     </div>
     </div>
     </div>
-
+    <section>
+        <div class="container reveal">
 <h2 class="wp-block-heading">                                          <font style="font-family: cursive;background: -webkit-linear-gradient(#c29cff, #5d00c7)"><em>NewBitz STUDIO</em></font></h2>
 
 
@@ -1073,9 +1074,11 @@ var actionbardata = {"siteID":"225207274","postID":"0","siteURL":"http:\/\/newbi
 <div style="height:0px" aria-hidden="true" class="wp-block-spacer wp-container-content-15"></div>
 
 
-
+<section>
+    <div class="container reveal">
+    <div class="text-box">
+        <p>
 <h3 class="wp-block-heading"><strong><font style="font-family: Arial, Helvetica, sans-serif;color:rgb(218, 160, 109)"><br>         <br>         <br>         <br><b><em>THE KEY FOR YOUR INSPIRING SOCIAL &amp; DIGITAL MARKETING.     </em></b></font></strong></h3>
-
 
 
 <p class="has-text-align-left"><font style="color: rgb(242, 210, 189)">Social marketing is&nbsp;<strong>an approach used to develop activities </strong></font></p>
@@ -1087,12 +1090,67 @@ var actionbardata = {"siteID":"225207274","postID":"0","siteURL":"http:\/\/newbi
 
 
 <p class="has-text-align-left"><strong>for the benefit of individuals and society as a whole.<font style="font-family: Arial, Helvetica, sans-serif;color: rgb(0, 255, 81)"><b>       <br>         <br>         <br>         <br>         <br></b></font></strong></p>
+</p>
 </div>
 </div>
 </div></div>
 </div>
+</div>
+</div>
+</div>
+</div>
+</section>
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 
+ .transition {
+   text-transform: uppercase;
+ }
+
+ @media (max-width: 900px){
+  section h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  section {
+    flex-direction: column;
+  }
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+</style>
+
+<script> 
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", reveal);
+  </script>
+  
 <div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)">
 <h2 class="wp-block-heading has-text-align-center"><font style="background-color: burlywood;text-align: center">We OFFER More VA Services</font></h2>
 
@@ -1416,6 +1474,68 @@ var actionbardata = {"siteID":"225207274","postID":"0","siteURL":"http:\/\/newbi
 </div>
 </div>
 </div>
+
+</p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+    
+     .transition {
+       text-transform: uppercase;
+     }
+    
+     @media (max-width: 900px){
+      section h1{
+        font-size: 2rem;
+        text-align: center;
+      }
+      section {
+        flex-direction: column;
+      }
+    }
+    
+    .reveal{
+      position: relative;
+      transform: translateY(150px);
+      opacity: 0;
+      transition: 1s all ease;
+    }
+    
+    .reveal.active{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    </style>
+    
+    <script> 
+      function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+      
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 150;
+      
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+      
+      window.addEventListener("scroll", reveal);
+      </script>
+      
 <!-- wpcom_wp_footer -->
 
 		<style id="skip-link-styles">
@@ -1798,4 +1918,12 @@ if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
 			height: 0 !important;
 			width: 0 !important;
 			overflow: hidden;
-		}</style><img src="https://pixel.wp.com/g.gif?blog=225207274&amp;v=wpcom&amp;tz=-4&amp;user=1&amp;user_id=238174867&amp;subd=newbizstudio&amp;host=newbizstudio.wordpress.com&amp;ref=&amp;rand=0.4112145903227571" alt="" id="wpstats"><iframe style="display:none" class="jetpack-notes-cookie-check" src="https://widgets.wp.com/3rd-party-cookie-check/index.html"></iframe><script src="https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20231025" defer=""></script></body></html>
+		}</style><img src="https://pixel.wp.com/g.gif?blog=225207274&amp;v=wpcom&amp;tz=-4&amp;user=1&amp;user_id=238174867&amp;subd=newbizstudio&amp;host=newbizstudio.wordpress.com&amp;ref=&amp;rand=0.4112145903227571" alt="" id="wpstats"><iframe style="display:none" class="jetpack-notes-cookie-check" src="https://widgets.wp.com/3rd-party-cookie-check/index.html"></iframe><script src="https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20231025" defer=""></script>
+    
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+    </body></html>
